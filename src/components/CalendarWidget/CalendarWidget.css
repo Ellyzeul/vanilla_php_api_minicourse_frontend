@@ -1,0 +1,8 @@
+.calendar_widget {
+  height: 85%;
+  width: 80%;
+  background-color: aliceblue;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}

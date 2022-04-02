@@ -1,0 +1,9 @@
+.calendar_box {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    grid-template-areas: 
+        'month_changer'
+        'calendar';
+}

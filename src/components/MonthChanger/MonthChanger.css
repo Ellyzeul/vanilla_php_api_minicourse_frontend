@@ -1,0 +1,20 @@
+.month_changer {
+    grid-area: month_changer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    user-select: none;
+}
+
+.month_changer > i {
+    border-radius: 100%;
+    padding: 3% 4%;
+    transition: 250ms;
+}
+.month_changer > i:hover {
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgb(0, 0, 0), rgba(255, 255, 255, 0.1));
+    transition: 250ms;
+    color: white;
+}
